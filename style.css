@@ -1,5 +1,4 @@
 header{
-    /* background-image: url('images/OG.png'); */
     background-size: cover;
     height: 700px;
     position: relative;
@@ -26,39 +25,43 @@ header{
 .div-3{
     border-radius: 20px;
 }
+.div-4,.div-5{
+    margin-left: 30px;
+}
 
-/* .div-4{
-    margin-top: 100px;
-    
-} */
 .div-4 .col{
-    padding: 40px;
+    width: 530px;
+}
+.div-5 .col{
+    width: 530px;
 }
 .div-4 p{
     text-align: justify;
 }
 .div-4 img{
-    width: 570px;
+    width: 520px;
     height: 300px;
 }
+
 
 .div-5{
     
     background-color: rgba(230, 240, 238, 0.404);
-    padding: 40px;
+    
     
 }
 .div-5 p{
     text-align: justify;
 }
-.div-5 .col{
-    width: 570px;
-}
+
 
 .div-5 img{
-    margin-left: 75px;
-    width: 570px;
+    
+    width: 520px;
     height: 300px;
+}
+.first-column{
+    margin-left: 40px;
 }
 
 
@@ -72,6 +75,7 @@ header{
 .div-7 img{
     width: 200px;
     height: 150px;
+    margin-left: 10px;
 }
 .div-8 img{
     width: 200px;
@@ -122,8 +126,9 @@ footer{
     
     .remaining-time{
         left: 0px;
-        top: 230px;
-        width: 380px;
+        top: 170px;
+        width: 360px;
+        margin-left: 5px;
         /* padding: 2px; */
         
         
@@ -134,23 +139,23 @@ footer{
         margin-left: 10px;
     }
     
+    .div-3 img{
+        width: 345px;
+    }
+    
     .div-4 img{
         width: 320px;
         height: 300px;
         
     }
-    .div-4 .col{
-        padding: 10px;
+    .div-4,.div-5{
+        margin-left: 5px;
     }
-    .div-4 .col{
-        padding: 10px;
+    
+    .first-column{
+        margin-left: 0px;
     }
-    .div-5{
-        
-        padding: 10px;
-        margin-left: 10px;
-        
-    }
+    
     .div-5 .col{
         padding: 10px;
     }
@@ -161,9 +166,13 @@ footer{
         height: 300px;
         margin-top: 30px;
     }
-    .div-5 .col{
-        width: 360px;
+    .div-5 .col,  .div-4 .col{
+        width: 330px;
+        
     }
+    /* .div-4 .col{
+        width: 330px;
+    } */
     
     footer{
         top: 9000px;
@@ -192,7 +201,16 @@ footer{
         top: 600px;
         margin-left: 10px;
     }
+    .div-3 img{
+        width: 730px;
+    }
     
+    .div-4,.div-5{
+        margin-left: 15px;
+    }
+    .div-4 .col{
+        width: 680px;
+    }
     .div-4 img{
         width: 680px;
         height: 300px;
